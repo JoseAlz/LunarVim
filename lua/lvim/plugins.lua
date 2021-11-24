@@ -270,7 +270,7 @@ return {
     config = function()
       require("lvim.core.alpha").setup()
     end,
-    -- disable = not lvim.builtin.alpha.active,
+    disable = not lvim.builtin.alpha.active,
   },
 
   -- Terminal
